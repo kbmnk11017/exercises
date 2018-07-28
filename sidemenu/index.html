@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="css/style.css">
+	<title>横から出てくるサイドメニュー</title>
+</head>
+<body>
+	<div class="overlay" id="js_overlay"></div>
+
+	<nav class="side-menu">
+		<ul>
+			<li><a href="#">メニュータイトル</a></li>
+			<li><a href="#">メニュータイトル</a></li>
+			<li><a href="#">メニュータイトル</a></li>
+		</ul>
+	</nav>
+
+	<div class="side-menu-btn" id="js_sideMenuBtn"></div>
+
+	<div class="wrapper">
+		<header class="header">
+			<h1>右から出てくるサイドメニュー</h1>
+		</header>
+
+		<main class="contents">
+			<section class="contents-inner">
+				<h1>メニュー１</h1>
+				<p>サイドメニュー01</p>
+			</section>
+			<section class="contents-inner">
+				<h1>メニュー2</h1>
+				<p>サイドメニュー02</p>
+			</section>
+			<section class="contents-inner">
+				<h1>メニュー3</h1>
+				<p>サイドメニュー03</p>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<p>フッター</p>
+		</footer>
+
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+		$(function () {
+			var $body = $('body');
+			$('#js_sideMenuBtn').on('click', function() {
+				$body.toggleClass('side-open');
+				$('#jd_overlay').on('click', function(){
+					$body.removeClass('side-open');
+				});
+			});
+		});
+	</script>
+	
+</body>
+</html>
