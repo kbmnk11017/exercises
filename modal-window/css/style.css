@@ -1,0 +1,17 @@
+#modal-content {
+  width: 50%;
+  margin: 1.5em auto 0;
+  padding: 10px 20px;
+  border: 2px solid #aaa;
+  background: #fff;
+  z-index: 2; }
+  #modal-content p {
+    margin-top: 1em; }
+    #modal-content p:first-child {
+      margin-top: 0; }
+  #modal-content .modal-button-link {
+    color: #00f;
+    text-decoration: underline; }
+    #modal-content .modal-button-link:hover {
+      cursor: pointer;
+      color: #f00; }
