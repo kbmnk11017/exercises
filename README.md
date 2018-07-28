@@ -9,7 +9,8 @@
 
 ## 作りたいもの、やってみたいこと
 
-*Gulp,Grunt　環境構築
-*
+* Gulp,Grunt　環境構築
+* 汎用的なパーツ作成
+
 ## その他
 ルールなどは[Wiki](https://github.com/kbmnk11017/exercises/wiki)にまとめる
