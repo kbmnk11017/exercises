@@ -11,6 +11,8 @@
 
 * Gulp,Grunt　環境構築
 * 汎用的なパーツ作成
+* SMACCSによるCSS設計
+
 
 ## その他
 ルールなどは[Wiki](https://github.com/kbmnk11017/exercises/wiki)にまとめる
